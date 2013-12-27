@@ -1,2 +1,2 @@
-Inovarti_Crieteo
+Inovarti_Criteo
 ================
