@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+ /**
+ *
+ * @category   Inovarti
+ * @package    Inovarti_Criteo
+ * @author     Suporte <suporte@inovarti.com.br>
+ */
+-->
+<config>
+    <modules>
+        <Inovarti_Criteo>
+            <codePool>local</codePool>
+            <active>true</active>
+        </Inovarti_Criteo>
+    </modules>
+</config>

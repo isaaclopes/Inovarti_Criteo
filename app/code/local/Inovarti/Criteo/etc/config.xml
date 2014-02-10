@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<!--
+/**
+ *
+ * @category   Inovarti
+ * @package    Inovarti_Criteo
+ * @author     Suporte <suporte@inovarti.com.br>
+ */
+-->
+<config>
+    <modules>
+        <Inovarti_Criteo>
+            <version>0.1.0</version>
+        </Inovarti_Criteo>
+    </modules>
+
+    <global>
+        <blocks>
+            <criteo>
+                <class>Inovarti_Criteo_Block</class>
+            </criteo>
+        </blocks>
+        <helpers>
+            <criteo>
+                <class>Inovarti_Criteo_Helper</class>
+            </criteo>
+        </helpers>
+    </global>
+
+    <frontend>
+        <layout>
+            <updates>
+                <criteo>
+                    <file>inovarti/criteo.xml</file>
+                </criteo>
+            </updates>
+        </layout>
+    </frontend>
+
+    <default>
+        <Inovarti_Criteo>
+            <criteo>
+                <enabled>0</enabled>
+                <criteo_conversion_id></criteo_conversion_id>
+            </criteo>
+        </Inovarti_Criteo>
+    </default>
+</config>

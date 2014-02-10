@@ -1,0 +1,58 @@
+<?xml version="1.0"?>
+<!--
+/**
+ *
+ * @category   Inovarti
+ * @package    Inovarti_Criteo
+ * @author     Suporte <suporte@inovarti.com.br>
+ */
+-->
+<config>
+    <tabs>
+        <inovarti translate="label" module="criteo">
+            <label>Inovarti</label>
+            <sort_order>299</sort_order>
+        </inovarti>
+    </tabs>
+    <sections>
+        <criteo translate="label" module="criteo">
+            <label>Criteo Remarketing</label>
+            <tab>inovarti</tab>
+            <frontend_type>text</frontend_type>
+            <sort_order>110</sort_order>
+            <show_in_default>1</show_in_default>
+            <show_in_website>1</show_in_website>
+            <show_in_store>1</show_in_store>
+            <comment><![CDATA[<a href="http://www.inovarti.com.br" target="_blank"><img title="Inovarti" alt="Inovarti" src="//www.inovarti.com.br/inovarti_logo.php"/></a></span>]]></comment>
+            <groups>
+                <criteo translate="label">
+                    <label>Remarketing settings</label>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>1</show_in_website>
+                    <show_in_store>1</show_in_store>
+                    <sort_order>10</sort_order>
+                    <fields>
+                        <enabled translate="label">
+                            <label>Allow Remarketing Tracking</label>
+                            <frontend_type>select</frontend_type>
+                            <source_model>adminhtml/system_config_source_yesno</source_model>
+                            <sort_order>1</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </enabled>
+                        <criteo_conversion_id translate="label">
+                            <label>Criteo conversion id</label>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>2</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                            <comment><![CDATA[Your Account Number]]></comment>
+                        </criteo_conversion_id>
+                    </fields>
+                </criteo>
+            </groups>
+        </criteo>
+    </sections>
+</config>

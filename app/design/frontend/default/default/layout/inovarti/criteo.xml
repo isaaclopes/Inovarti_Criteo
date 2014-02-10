@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<!--
+/**
+ *
+ * @category   Inovarti
+ * @package    Inovarti_Criteo
+ * @author     Suporte <suporte@inovarti.com.br>
+ */
+-->
+<layout version="0.1.0">
+    <default>
+        <reference name="before_body_end">
+            <block type="criteo/block" name="criteo" />
+        </reference>
+    </default>
+</layout>
