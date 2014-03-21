@@ -52,7 +52,8 @@ class Inovarti_Criteo_Block_Block extends Mage_Core_Block_Abstract {
             }
 
             if ($_pagetype == 'product') {
-                $tagProduct = '{ event: "viewItem", item: "' . Mage::registry('current_product')->getSku() . '" }';
+                $productSKU = Mage::registry('current_product');
+                if ($productSKU) $tagProduct = '{ event: "viewItem", item: "' . $productSKU->getSku() . '" }';
             }
 
             if ($_pagetype == 'cart') {
